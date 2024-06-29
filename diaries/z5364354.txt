@@ -1,0 +1,51 @@
+Week 1:
+Made group, working on files, packages and tools required.
+Week 2:
+Created data models and entries with the backend team. Figuring out how Django works in terms of backend configuration.
+9/03/2024:
+Looking into using Djoser to implement password
+11/03/2024:
+Added view to urls
+Configured settings.py for sending emails, was stuck on authentication certificates due to newer release of Django but solved by creating a email cert avoider in config and linking the settings to that file. 
+Created an email system using google and third-party authenticated password, now allows backend to send emails containing a link to reset password.
+Tested that this email system works, and the password actually changes.
+TODO: customize emails so that we can add our own information there instead of the Django default.
+12/03/2024:
+Found the pathfile name from home/default desktop to the api folder, added the code to urls so that customizable html email templates can be added.
+Created own template -> to be improved.
+TODO: firgure out how to connect frontend and backend
+
+Week 6:
+Flexi-week chill
+Week 7:
+Finished creating the logic for Course Join, Course Create
+Added the URL's to urls.py
+Gave the logic to frontend
+TODO: Create logic for adding a URL for live class
+Week 8:
+Created logic for adding a URL for live class
+Added the url path to urls.py
+Started linking front-end and backend together:
+  There were issues with the POST request due to security features requirng a CSRF token from the front-end. After researching and modifying settings.py to include X-CSRFToken, front-end is now allowed to make
+  POST, PUT and DEL requests to the backend. This token must be provided to every single request that is not a GET request.
+Helped front-end with finishing the create course modal logic, linked all parts and ready to present
+Added an email functionality so that whenever a new forum post is made or new material is uploaded, all participants of a course receive that email.
+NOTE: should send email to the person making the post whenever their question is answered by someone
+i.e, for every reply to a comment, an email should be sent to the person who created the post.
+TODO: think about a delete course function that allows the deletion of not only the course, but also the files attached to lessons.
+
+Week 9:
+  Moved to front-end to help fix previous sprint difficulties and implement new features.
+  - Fixed the upload code error by passing in a FormData
+  - Added a simplistic delete button so that course materials can now be deleted
+  - Helped others with bugs in their code
+  TODO: Implement an assignment creation and submission page
+
+Week 10:
+  Implemented the assignment creation and submission page as per the Jira.
+  - Created the create assignment page so that the title, due date, description and optional files are added
+  - Created the submission page and made it so that the assignment can be submitted any number of times until marking
+  - Files are also displayed to be downloaded on the view assignment page
+  - Made the pages responsive correspondingly to a iPhone SE 2020, with implementing scroll features for when the description or number of files get too large
+  - Presented the project to our tutor demo
+  - Wrote report

@@ -1,0 +1,36 @@
+COMP3900 Diary – Daniel Yung z5311281
+Week 3:
+Learnt Django features and tools. Got a rough sketch of the database models that we would be
+using.
+Week 4:
+Finalised database models. Wrote dashboard API for students and lecturers. These are pages
+that show a list of all, ongoing and completed courses that a user participates in.
+Week 5:
+Helped link frontend and backend and assisted with how courses data was returned. First sprint
+demo. Wrote documentation for sprint 2 features I was working on.
+Week 6:
+Created the models for Lessons, which are lectures and tutorials, Topics and worked with Eric
+for Files. Learnt how to do file upload using AWS S3 buckets, and how to accept file input from
+POST/PUT requests. Created authentication helpers to identify that a lesson belongs to a
+course, a topic belongs to a lesson, and a file belongs to a topic.
+Week 7:
+Wrote lecture and tutorial resources API, this involves: Viewing all topics for a lesson, adding,
+deleting and editing topics in a lesson and uploading a file to a topic. Also wrote functionality for
+creating and deleting a tutorial.
+Week 8:
+Changed some functionality that frontend wanted from resources API. Viewing all resources in a
+lesson now sorts the topics into weeks, and then in chronological order. Added a redirect url for
+lecture resources, so frontend doesn’t need the lecture’s id.
+Week 9:
+Wrote all backend functionality for assignments and submissions, this involves: Creating
+models for assignments and submissions, editing authentication helpers to accommodate new
+url routes. Viewing all assignments for a course, creating and deleting assignments and
+uploading attachment files for assignments as a teacher, submitting assignments as a student,
+viewing all submissions for an assignment as a teacher, marking assignments and uploading
+feedback files.
+Changed uploading files for lecture/tutorials resources to accepting list of files instead of one
+file at a time.
+Week 10:
+Created file search bar API, updated minor changes frontend team wanted involving assignment
+API and submissions API. Presented Final Demo and wrote Resources Functionality for final
+report and some of the backend implementation challenges.

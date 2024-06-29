@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.7.2"
+django = "==5.0.2"
+django-cors-headers = "==4.3.1"
+djangorestframework = "==3.14.0"
+mysql-connector-python = "==8.3.0"
+pytz = "==2024.1"
+sqlparse = "==0.4.4"
+tzdata = "==2024.1"
+djoser = "*"
+certifi = "*"
+django-rest-passwordreset = "*"
+django-storages = "*"
+boto3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

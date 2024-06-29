@@ -1,0 +1,59 @@
+Week 1
+We created our group of 6 named Scrumbags and decided who works on the backend or frontend. 
+Selected Eric to be Scrum Master. The Moodle group was created and the Jira Site. 
+A project on the Jira Site was made to keep track of sprints and their issues. We then each picked our top 5 perferences from the project list and saw which had the most picks. 
+It was the learning management system. 
+
+Week 2
+Group meetings were planned for Wednesday night. Frontend group started working on the visual mockups of the project. 
+Discussed to use React for the frontend. Selected Lisa as the Project Owner. 
+Started working on the design proposal as a team. We all wrote user stories for each requirement of the project. 
+
+Week 3
+Finished the mockups to add to the design proposal. Also added a flow diagram connecting the user stories to the mockups. 
+
+Week 4
+Issues in the first sprint were assigned so people could start working. Started coding the frontend pages related to courses. 
+Finished the basic structure and any relations/flow of the pages. Had trouble with styling but this was overcame with more research on the components. 
+In the next week I plan to refine the styling and fix bugs caused by state variables.
+
+Week 5
+Fixed bugs and planned work from last week. 
+Finished frontend pages for courses, ready to connect to backend. 
+The main issues were making the requests to the backend. We didn't know what headers or information needed to be passed in the request. This was solved by more research and communication with the backend team. 
+We could not finish the password recovery functionality due to how Django handles this. This was solved too late and merge conflicts could not be resolved in time before the demo. This does not affect the overall project progress as it was ready before the next sprint. 
+Next week I plan to start working on sprint 1 fixes. 
+
+Week 6
+Created success and error boxes to use. Also created a course page template (reappearing structure such as navbars) to use. Added responsiveness to the template and sprint 1 pages. Restructured the frontend folder to prepare for sprint 2 items. 
+The responsiveness was not perfect with minor styling errors but I did not know how to fix at this time so I left it. 
+Next week I plan to start on sprint 2 items.
+
+Week 7
+Started working on the sprint 2 items and finished some. Created the layout of the lecture and tutorials page as they were linked and different people were working on it. 
+Finished the Todo page and the static live page. 
+Next week I plan to finish sprint 2 items before the demo.
+
+Week 8
+Live page was connected to the backend and was finished. 
+Fixed up the resources page and finished it as well.
+Created routes for the frontend and connected it to its corresponding pages. 
+Fixed any required navigation.
+Had trouble making post requests due to Django requiring authentication. Communicated it to backend and problem was solved. 
+Could not finish file upload as we did not know what form of data the request required. 
+Due to this the edit button for resources was not completed. Due to these issues we had to fix it asap as it would be a problem for the next sprint. 
+Another person had to help with frontend as well. 
+Next week I plan to finish the layout of sprint 3 items and make sprint 2 fixes. 
+
+Week 9
+Fixed sprint 2 fixes: navigation for forums and edit functionality for resources. 
+Made the Assessments page, submissions page and layout of the quiz questions.
+Next week I plan to finish all sprint 3 items and implement responsiveness for all assigned pages. 
+
+Week 10
+Finished students doing the quiz and teachers marking quizzes. 
+Fixed the responsiveness template and added responsiveness for resources page. 
+Created routes for the rest of the pages and fixed navigation for assessments. 
+Fixed delete functionality for resources. 
+Implemented searching course materials. 
+Fixed errors on logout. Deleted unused imports and files. 

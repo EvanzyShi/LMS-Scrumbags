@@ -1,0 +1,48 @@
+Week 1:
+I teamed up with another 5 members in the class to form a group for this project. 
+Eric was selected as the scrum master. To facilitate seamless communication throughout the project, 
+we exchanged contact information and agreed to use Messenger as our primary communication channel.
+Our project selection process required deeper deliberation; unable to reach a decision during the tutorial,
+each team member selected their top five project preferences. Final result : Learning Management System 
+
+Week 2:
+We got started with the design proposal - I created a document. Our team scheduled regular meetings for Wednesday nights 
+Each member contributed to user stories for each key functionality of the project requirement, we also had discussions 
+on the background and what our competitors are so what our product will differentiate from them. I was selected as 
+product owner. Frontend team started visual mockup for the project, with my contributions laying the groundwork in terms 
+of design elements and color schemes.
+
+Week 3:
+The focus this week was to finalise the proposal for submission so frontend team escalated the design mockups - 
+I mainly focused on the teacher/educator screens, then we moved onto making the flow diagrams. We made sure our 
+mockup aligned with the jira board of user stories we've written - taking out components that were not in the requirement.
+Sepaarting tasks that were important into 3 sprints leaving extra features to the end. 
+
+Week 4:
+
+Following Eric's configuration of GitHub, the frontend team divided tasks to start developing the pages. 
+In class, Christine established the page routes where we then delegated tasks. I took on the registration pages. 
+During this process, I encountered a few challenges, including a persistent issue where the text field wouldn't 
+change color upon selection and a glitch that displayed dual visibility icons when entering a password. 
+After navigating through these obstacles and completing the pages, I progressed to designing the landing page.
+
+Week 5:
+After completing the frontend pages. The focus was to connect backend and frontend in preparation for the demo. 
+
+
+Week 6 - 8: Sprint 2
+- Create Course page
+- Create Tutorial page
+- Fixed navbar 
+- Searchbar Tutorial 
+- Resource page 
+- Edit modal Resource 
+
+Week 8 - 10: Sprint 3
+- Create quiz page
+- Fixed searchbar course, coursecard 
+- Submission Feedback page : Teacher + Student 
+- Fixed create assignment, assignment submission so files uploaed are displayed 
+- Fixed Styling 
+- Help testing and code clean up 
+

@@ -1,0 +1,56 @@
+Week 1:
+We met our group members at the tutorial and created the group on Moodle. I was selected as the Scrum Master.
+The Jira Site was created as well as a project made on it in order to delegate and keep track of tasks during future sprints.
+We had a discussion to determine our project, since we couldn't decide on a project during the tutorial we continued the discussion the next day
+and decided to do the learning management system.
+We exchanged details and determined our method of communication will be through Messenger.
+
+Week 2:
+We determined that we will meet on Wednesdays before our tutorial to discuss anything we would like to talk about with the tutor.
+We also determined that Daniel, Evan and I will work on the backend of the website. We discussed languages and settled on Python using Django as the framework.
+Lisa was selected as the Project Owner.
+The entire team started writing user stories for each requirement that was stated in our project.
+Daniel, Evan and I worked on transferring them to the Jira.
+
+Week 3:
+Upon feedback from the tutor we organised our user stories under user epics and created acceptance criteria for each user story.
+We continued with our proposal by organising the Jira as well as setting up our sprint finish and end dates as well as the items for all of them.
+I created the system architecture diagram and wrote up the technology stack that we will be using.
+I watched some tutorials on Django and how to integrate it with React, which is the frontend library that our team will be using.
+We submitted the proposal on Sunday.
+
+Week 4:
+I set up the Github and did the initial commit on it creating the basic React and Django app.
+I continued research on how to write authentication using Django and specifically how to use it in creating a log in page.
+Daniel Evan and I met and discussed our database and we created a very basic database schema that we will improve on as the project develops.
+
+Week 5:
+Connected database with AWS.
+Created backend endpoint for sign up and login as well as user authentication.
+Worked with frontend to get everything connected.
+Delivered demo for sprint 1.
+Submitted the demo retrospective.
+
+Week 6:
+Drafted the database schema for forums, which includes posts and comments.
+Created endpoints for forums, posts.
+Set up AWS S3 for files.
+
+Week 7:
+Created endpoint for comments.
+Created helper function for saving downloaded files to S3.
+
+Week 8:
+Updated some endpoints to pass in data requested from frontend.
+Helped frontend connect forums.
+Delivered demo for sprint 2.
+Submitted the demo retrospective.
+
+Week 9:
+Created endpoint for liked comments and posts.
+Created endpoint quizzes.
+
+Week 10:
+Updated the API documentation.
+Added images to forum posts,
+Cleaned up the code before submitting source code.
